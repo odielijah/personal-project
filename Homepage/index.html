@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/7e5a619ee7.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" defer></script>
+    <script src="./script.js" defer></script>
+    <title>Project</title>
+</head>
+<body>
+    <header class="header-width">
+        <div class="main-header">
+            <div class="upper-part">
+                <div class="left-side">
+                        <div class="currency" id="navbar">
+                            <!-- <a href="#" class="decor"> -->
+                                <span class="currency" id="navbar">NG / ₦</span>
+                        </div>
+                        <a href="#" class="icon-spacing ha"><i class="fa-solid fa-bag-shopping fa-md"></i></a>
+
+                </div>
+                    <div class="logo">
+                        <a href="../Homepage/index.html"><img class="" src="../images/logo.webp"></a>
+                    </div>
+
+                    <div class="right-side">
+                        <a href="#" class="icon-spacing"><i class="fa-solid fa-search fa-sm searchBtn"></i></a>
+                        <a href="#" class="icon-spacing"><i class="fa-solid fa-location-dot fa-sm"></i></a>
+                        <a href="#" class="icon-spacing"><i class="fa-solid fa-user fa-sm"></i></a>
+                        <a href="#" class="icon-spacing"><i class="fa-solid fa-bag-shopping fa-sm"></i></a>
+                    </div>
+
+                    <div class="searchbox">
+                        <span class="search-color"><i class="fa-solid fa-search fa-sm searchBtn"></i></span>
+                        <input type="text" placeholder="search Products">
+                        <i class="fa-solid fa-x closeBtn fa-xs"></i>
+                    </div>
+
+                    <div class="ha">
+                        <a href="#" class="icon-spacing"><i class="fa-solid fa-magnifying-glass fa-md"></i></a>
+                        <button class="mobile-nav-toggle ha" aria-controls="navigation" aria-expanded="false">
+                        <a href="#" class="icon-spacing" onclick="toggle()"><i class="fa-solid fa-bars fa-lg"></i></a></button>
+                    </div>
+
+
+            </div>
+            <div class="lower-part" id="navbar" data-visible="false">
+                <ul class="links" id="navigation" role="navigation" aria-label="primary" data-visible="false">
+                    <li><a href="../Personalization/index5.html" class="padding-li"><p>personalization</p></a></li>
+                    <li><a href="../Women/index2.html" class="padding-li"><p>women</p></a></li>
+                    <li><a href="../Men/index3.html" class="padding-li"><p>men</p></a></li>
+                    <li><a href="../The Brand/index6.html" class="padding-li"><p>the brand</p></a></li>
+                    <li><a href="../Sale/index4.html" class="padding-li"><p>sale</p></a></li>
+                    <li><a href="../AI API/ai-api.html" class="padding-li r"><p>new ai</p></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- HEADER SWIPER -->
+    <div class="container swiper mySwiper" id="blur">
+        <div class="content swiper-wrapper">
+            <div class="slides swiper-slide">
+                <img src="../images/DYO_Accesories.webp" alt="">
+                <div class="img-overlay">
+                    <h2>Shop Accessories</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#">More details</a>
+                </div>
+            </div>
+            <div class="slides swiper-slide">
+                <img src="../images/Isabel Marant Spring_Summer 2020 Lookbook - Fucking Young!.jpg" alt="">
+                <div class="img-overlay">
+                    <h2>Tinted Sunglasses</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#">More details</a>
+                </div>
+            </div>
+            <div class="slides swiper-slide">
+                <img src="../images/category_femme_c8b5e8a7-d8e4-468b-a50e-1408f1518ede_1800x.webp" alt="">
+                <div class="img-overlay">
+                    <h2>Fashion Fits</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#">More details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NEW ARRIVALS & BESTSELLERS -->
+    <section class="section-tab-padding">
+        <div class="container2">
+            <div class="tab-box">
+                <ul class="tabs">
+                <li><button class="tab-btn active">New Arrivals</button></li>
+                <li><button class="tab-btn">Bestsellers</button></li>
+                </ul>
+                <div class="line"></div>
+            </div>
+
+            <div class="content-box">
+                <div class="content2 active">
+                    <div class="media-scroller">
+                        <div class="media-element">
+                            <span class="sale-tag">sale</span>
+                            <img src="../images/canvas-cotton-linen-perreur-bermuda-cargo-canvas-camo-green-1_720x.jpg" alt="">
+                            <h3>Lorem Ipsum</h3>
+                            <div class="star-rating">
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star reviews">83 reviews</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Ea libero fuga delectus velit</p>
+                                <span class="price">₦50,000</span>
+                        </div>
+                        <div class="media-element">
+                            <span class="sale-tag">sale</span>
+                            <img src="../images/dress-to-kill-ledru-sweatshirt-beige-1_360x.webp" alt="">
+                            <h3>Lorem Ipsum</h3>
+                            <div class="star-rating">
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star reviews">83 reviews</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Ea libero fuga delectus velit</p>
+                                <span class="price">₦50,000</span>
+                        </div>
+                        <div class="media-element">
+                            <span class="sale-tag">sale</span>
+                            <img src="../images/amour-vasselon-cardigan-polo-collar-tomato-1_360x.webp" alt="">
+                            <h3>Lorem Ipsum</h3>
+                            <div class="star-rating">
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star reviews">83 reviews</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Ea libero fuga delectus velit</p>
+                                <span class="price">₦50,000</span>
+                        </div>
+                        <div class="media-element">
+                            <span class="sale-tag">sale</span>
+                            <img src="../images/amour-verdeau-sailor-sweater-off-white-tomato-1_360x.webp" alt="">
+                            <h3>Lorem Ipsum</h3>
+                            <div class="star-rating">
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star reviews">83 reviews</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Ea libero fuga delectus velit</p>
+                                <span class="price">₦50,000</span>
+                        </div>
+                        <div class="media-element">
+                            <span class="sale-tag">sale</span>
+                            <img src="../images/amour-hersent-twill-lyocell-dress-coral-off-white-1_360x.webp" alt="">
+                            <h3>Lorem Ipsum</h3>
+                            <div class="star-rating">
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star reviews">83 reviews</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Ea libero fuga delectus velit</p>
+                                <span class="price">₦50,000</span>
+                        </div>
+                        <div class="media-element">
+                            <span class="sale-tag">sale</span>
+                            <img src="../images/img4.jpg" alt="">
+                            <h3>Lorem Ipsum</h3>
+                            <div class="star-rating">
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star reviews">83 reviews</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Ea libero fuga delectus velit</p>
+                                <span class="price">₦50,000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content2">
+                    <div class="media-scroller">
+                        <div class="media-element">
+                            <span class="sale-tag">sale</span>
+                            <img src="../images/img4.jpg" alt="">
+                            <h3>Lorem Ipsum</h3>
+                            <div class="star-rating">
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star reviews">83 reviews</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Ea libero fuga delectus velit</p>
+                                <span class="price">₦50,000</span>
+                        </div>
+                        <div class="media-element">
+                            <span class="sale-tag">sale</span>
+                            <img src="../images/img4.jpg" alt="">
+                            <h3>Lorem Ipsum</h3>
+                            <div class="star-rating">
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star reviews">83 reviews</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Ea libero fuga delectus velit</p>
+                                <span class="price">₦50,000</span>
+                        </div>
+                        <div class="media-element">
+                            <span class="sale-tag">sale</span>
+                            <img src="../images/img4.jpg" alt="">
+                            <h3>Lorem Ipsum</h3>
+                            <div class="star-rating">
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star reviews">83 reviews</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Ea libero fuga delectus velit</p>
+                                <span class="price">₦50,000</span>
+                        </div>
+                        <div class="media-element">
+                            <span class="sale-tag">sale</span>
+                            <img src="../images/img4.jpg" alt="">
+                            <h3>Lorem Ipsum</h3>
+                            <div class="star-rating">
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star reviews">83 reviews</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Ea libero fuga delectus velit</p>
+                                <span class="price">₦50,000</span>
+                        </div>
+                        <div class="media-element">
+                            <span class="sale-tag">sale</span>
+                            <img src="../images/img4.jpg" alt="">
+                            <h3>Lorem Ipsum</h3>
+                            <div class="star-rating">
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star reviews">83 reviews</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Ea libero fuga delectus velit</p>
+                                <span class="price">₦50,000</span>
+                        </div>
+                        <div class="media-element">
+                            <span class="sale-tag">sale</span>
+                            <img src="../images/img4.jpg" alt="">
+                            <h3>Lorem Ipsum</h3>
+                            <div class="star-rating">
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star"><img src="../images/star.png" alt="" width="16px" height="16px"></span>
+                                <span class="star reviews">83 reviews</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Ea libero fuga delectus velit</p>
+                                <span class="price">₦50,000</span>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BRAND WRITEUP -->
+    <section class="brand-block">
+        <div class="page-width">
+            <div class="brand-wrapper">
+                <div class="logo2"><img src="" alt="brand logo" width="96px" height="62px"></div>
+                <div class="brand-text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente officia, 
+                    omnis natus quae praesentium rerum repellat eligendi dignissimos earum optio, 
+                    debitis quia id nobis quibusdam 
+                    corrupti alias, quas consequuntur.</p></div>
+                <div class="brand-text"><p>Sunny and Gertrude — Co-founders</p></div>
+                <div class="signature"><img src="../images/signature1.png" alt="Sunny's signature" width="96px" height="62px"></div>
+                <div class="signature"><img src="../images/signature2.png" alt="Gertrude's signature" width="96px" height="62px"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SHOP GIRLS VS SHOP GUYS -->
+    <section class="section-p1">
+        <div class="banners">
+            <div>
+                <img src="../images/FEMME-Bloc_379180b1-fda6-4ef2-bb19-1eab79d6e36d_900x.webp" alt="">
+                <div class="shopgs-overlay">
+                    <h2>Shop Girls</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <button><a href="#">Shop Now</a></button>
+                </div>
+            </div>
+            <div>
+                <img src="../images/HOMME-Bloc_0c92a155-0765-4856-8040-cbfe19722301_900x.webp" alt="">
+                <div class="shopgs-overlay">
+                    <h2>Shop Guys</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <button><a href="#">Shop Now</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI BANNER SECTION -->
+    <section>
+        <div class="ai-container">
+            <div class="ai-banner">
+                <div class="ai-text">
+                    <h2>Try Out The New AI ?</h2>
+                    <p>The new AI helps you measure your body size, <br>
+                        personalize your taste, recommend new outfits, <br>
+                        and lots more !</p>
+                    <button type="button" class="ai-btn"><a href="#">Try it now</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="f3p-width">
+        <div class="f3p">
+            <ul>
+                <li>
+                    <h3>Free Shipping</h3>
+                    <p>Free UK ground shipping on all orders over £100.</p>
+                </li>
+                <li>
+                    <h3>30-Day Trial</h3>
+                    <p>Don't love your TRUEs? We'll take them back within 30 days.</p>
+                </li>
+                <li>
+                    <h3>Path To Sustainability</h3>
+                    <p>We utilise sustainable materials and best practices #ForethePlanet.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- S&G FOR EVERYONE -->
+    <section class="animated-section">
+        <div class="animated-page-width">
+          <div class="animated-text-block">
+            <h2 class="animated-text-size rel">SUNNY & GERTRUDE FOR
+              <div class="animated-text-flipper-wrapper">
+                <span class="animated-text-size">ANY</span>
+                  <div class="animated-text-flipper">
+                    <div class="swiper">
+                      <ul>
+                        <li class="animated-text-flipper-item animated-text-size swiper-slide">ONE</li>
+                        <li class="animated-text-flipper-item animated-text-size swiper-slide">WEATHER</li>
+                        <li class="animated-text-flipper-item animated-text-size swiper-slide">WHERE</li>
+                        <li class="animated-text-flipper-item animated-text-size swiper-slide">THING</li>
+                        <li class="animated-text-flipper-item animated-text-size swiper-slide">ONE</li>
+                      </ul>
+                      <span class="swiper-notification"></span>
+                    </div>
+                  </div>
+              </div>
+            </h2>
+            <div class="animated-text-icons"></div>
+          </div>
+        </div>
+    </section>
+
+    <footer class="footer-width">
+        <div class="footer-row">
+            <div class="footer-newsletter">
+                <h3>Subscribe to our newsletter</h3>
+                <p>Be the first to know about our latest news and promotions</p>
+                <form action="">
+                    <input type="email" placeholder="Enter your Email" required>
+                    <button type="submit"><span class="material-symbols-sharp">keyboard_arrow_right</span></button>
+                </form>
+                <div class="footer-social-icons">
+                    <a href=""><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok" style="color: #000000;"></i></a>
+                    <a href=""><i class="fa-brands fa-pinterest" style="color: #000000;"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Customer Service</h3>
+                <a href="#"><p>Contact Us</p></a>
+                <a href="#"><p>Shipping & Returns</p></a>
+                <a href="#"><p>Personal Data</p></a>
+                <a href="#"><p>Cookie Prefrences</p></a>
+                <a href="#"><p>My Account</p></a>
+            </div>
+            <div class="footer-col">
+                <h3>links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Office</h3>
+                <p>12, Epiphany Street</p>
+                <p>Lekki Phase 1, Bungalore</p>
+                <p>Lagos, PIN 560066, Nigeria</p>
+                <a href="#"><p class="footer-email-id">avinashdm@gmail.com</p></a>
+                <h4>+234-801 2345 678</h4>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
