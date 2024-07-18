@@ -657,7 +657,7 @@ a.padding-li.r::after {
     justify-content: center;
     align-items: center;
     position: relative;
-    background-image: url("Images/ai.webp");
+    background-image: url("../Images/ai.webp");
     height: 70vh;
     width: 100%;
     object-fit: cover;
