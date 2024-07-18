@@ -28,7 +28,7 @@ body {
 /* NAVIGATION SECTION */
 
 .header-img {
-    background-image: url(../images/women.webp);
+    background-image: url(Images/women.webp);
     height: 80vh;
     object-fit: cover;
     background-size: cover;
